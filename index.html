@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <meta charset="utf-8">
+    <title>Bank Account</title>
+  </head>
+  <body>
+<!-- Form Blocks -->
+<div class="container firstFade">
+  <h2>Register a new account:</h2>
+  <form id="new-contact">
+    <div class="form-group">
+      <label for="newName">Name:</label>
+      <input type="text" class="form-control" id="newName">
+    </div>
+    <div class="form-group">
+      <label for="initDeposit">Deposit:</label>
+      <input type="text" class="form-control" id="initDeposit">
+    </div>
+
+    <button type="submit" class="btn bdr" id=smbtAcct>Add:</button>
+
+  </form>
+</div>
+
+<div class="container secondForm secondFade">
+  <h2>Deposit or Withdraw funds:</h2>
+  <form id="manageFunds">
+    <div class="form-group">
+      <label for="depositAmount">Deposit Amount:</label>
+      <input type="text" class="form-control" id="depositAmount">
+    </div>
+    <div class="form-group">
+      <label for="withdrawalAmount">Withdrawal Amount:</label>
+      <input type="text" class="form-control" id="withdrawalAmount">
+    </div>
+<!-- Dear Jentry. You can add 2 classes like dis -->
+<button type="submit" class="btn showBtn bdr">Add</button>
+
+  </form>
+</div>
+
+<div class="container">
+  <h2>Current Balance:</h2>
+  <div class="currentBalance">
+
+  </div>
+</div>
+  </body>
+</html>
+
+
+<!-- ++++++++++++++++++++++++++++ -->
